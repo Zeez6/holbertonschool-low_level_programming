@@ -1,0 +1,16 @@
+#!/bin/bash
+# Liste des fichiers
+files=(
+    "0-preprocessor"
+    "1-compiler"
+    "2-assembler"
+    "3-name"
+    "4-puts.c"
+    "5-printf.c"
+    "6-size.c"
+)
+# Ajout du shebang et mise à jour des permissions
+for file in "${files[@]}"; do
+    echo '#!/bin/bash' | cat - "$file" > temp && mv temp "$file"
+    chmod u+x "$file"
+done
