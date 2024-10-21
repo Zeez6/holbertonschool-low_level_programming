@@ -7,9 +7,8 @@
 int main(void)
 {
 	int n;
-
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;	
+	n = rand() - RAND_MAX / 2;
 	if (last > 5)
 	{
 	printf("%10 is greather than 5\n" n);
@@ -19,7 +18,7 @@ int main(void)
 	printf("%10 and is 0\n" n);
 	}
 	else
-	{ 
+	{
 	printf("%10 and is less than 6 and not 0\n" n);
 }
 	return (0);
