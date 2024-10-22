@@ -8,8 +8,9 @@
 int main(void)
 {
 char letter;
-for (letter = 'a' ; letter <= 'z' ; letter++)
-while  (letter = 'A' ; letter <= 'Z' ; letter++)
+for (letter = 'a'; letter <= 'z'; letter++)
+putcher(letter);
+while  (letter = 'A'; letter <= 'Z'; letter++)
 putchar(letter);
 putchar('\n');
 return (0);
