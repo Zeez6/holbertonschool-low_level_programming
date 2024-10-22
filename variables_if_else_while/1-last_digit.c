@@ -13,7 +13,7 @@ int n;
 int lastdigit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-lastdigit = n % 10;
+lastdigit = n % (10);
 
 if (lastdigit > 5)
 {
