@@ -17,7 +17,7 @@ lastdigit = n % (10);
 
 if (lastdigit > 5)
 {
-printf("Last digit of %d is %d and is greather than 5\n", n, lastdigit);
+printf("Last digit of %d is %d and is greater than 5\n", n, lastdigit);
 }
 else if (lastdigit == 0)
 {
