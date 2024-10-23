@@ -1,13 +1,21 @@
-#include <unistd.h>
-#include <stdio.h>
+#include "main.h"
 /**
-* main - Prints all single digit numbers of base 10 starting from 0.
+* _putchar - writes the character c to stdout
+* @c: The character to print
 *
-* Return: Always 0.
+* Return: On success 1.
+* On error, -1 is returned, and errno is set appropriately.
 */
-int _putchar(char c);
-int main(void);
+int main(void)
 {
-write("%d _putchar %d\n")
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 return (0);
 }
