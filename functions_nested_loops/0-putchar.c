@@ -1,13 +1,13 @@
-#include <stdio.h>
 #include <unistd.h>
+#include <stdio.h>
 /**
 * main - Prints all single digit numbers of base 10 starting from 0.
 *
 * Return: Always 0.
 */
+int _putchar(char c);
 int main(void);
 {
-int write(int filedes, const char *buf, unsigned int nbytes);
-write("1, _putchar\n", 8);
+write("%d _putchar %d\n")
 return (0);
 }
