@@ -4,7 +4,7 @@
 * @n: Number of times.
 * Return : 0
 **/
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 int c, i;
 c = 0;
