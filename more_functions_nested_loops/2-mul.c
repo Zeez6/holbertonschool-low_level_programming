@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* add - Addition function
-* Return: THe result of the addition
+* mul - multiplies function
+* Return: THe result of the multiplies
 * @a: The first int
 * @b: The second
 */
