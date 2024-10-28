@@ -1,18 +1,22 @@
 #include "main.h"
 /**
 * print_line - function draws line in terminal.
-* Return : 0.
+* @n: Number of times.
+* Return : 0
 **/
+
 void print_line(int n)
 {
-int x;
+int i;
+
 if (n <= 0)
 {
 _putchar('\n');
+
 }
 else
 {
-for (x = 0; x < n; x++)
+for (i = 0; i < n; i++)
 {
 _putchar(95);
 }
