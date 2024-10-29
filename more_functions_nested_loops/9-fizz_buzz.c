@@ -1,8 +1,7 @@
 #include "stdio.h"
 
 /**
- * print_square - print square on terminal.
- * @num: number.
+ * main - main function.
  * Return: 0.
  */
 
