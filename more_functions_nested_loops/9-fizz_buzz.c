@@ -9,17 +9,27 @@ int main(void)
 {
 	int num;
 
-	for (num = 0; num <= 100; num++)
-	printf("%d", num);
+	for (num = 1; num <= 100; num++)
+	printf("%d, num");
 	{
-	if (num % 3 == 0)
+	if (num % 3 == 0 && num % 5 == 0)
+	{
+	printf("FizzBuzz");
+	}
+	else if (num % 3 == 0)
+	{
 	printf("Fizz");
 	}
-	if (num % 5 == 0)
-	printf("Buzz");
+	else if (num % 5 == 0)
 	{
-		if (num % 5 == 0 && num % 3 == 0)
-		printf("FizzBuzz");
+		printf("Buzz");
 	}
+	if (num < 100)
+	{
+		printf(" ");
+	}
+	else
 	printf("%d", num);
+	}
+	return (0);
 }
