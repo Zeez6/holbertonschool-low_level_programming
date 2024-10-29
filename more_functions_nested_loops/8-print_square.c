@@ -2,13 +2,14 @@
 
 /**
  * print_square - function print square on terminal.
- * @n: number of times.
+ * @size: number of times.
  * Return: 0.
  */
 
 void print_square(int size)
 {
 	int c, i;
+
 	if (size <= 0)
 	{
 		_putchar('\n');
