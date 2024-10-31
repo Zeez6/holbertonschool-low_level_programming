@@ -2,17 +2,20 @@
 #include <stdio.h>
 
 /**
- * int_strlen - function return length of a string.
+ * _strlen - function return length of a string.
  * @s: pointer.
+ * @len: length.
  * Return: 0.
  */
-int int_strlen(char *s)
-{
-	char str[500] = "My first strlen!";
 
-	int len = strlen(str);
+int _strlen(char *s)
+{
+	int length = 0;
+
+	while (*s != '\0')
 	{
-		printf("Length of the String is %d", len);
+		length++;
+		s++;
 	}
-	return (0);
+	return (length);
 }
