@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * Main - main function.
- * Function take pointer.
+ * reset to 98 - main function.
+ * @n: pointer.
  * Return: 0.
  */
 
