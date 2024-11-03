@@ -4,6 +4,7 @@
 /**
  * print_array - print elements of an array integers.
  * @a: pointer.
+ * @n: numbers.
  * Return: .
  */
 
