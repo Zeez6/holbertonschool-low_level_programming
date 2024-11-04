@@ -3,8 +3,9 @@
 /**
  * strncpy - function copy string.
  * @n: limit of copy.
+ * @dest: destination.
+ * @src: source.
  * Return: destination.
- * 
  */
 
 char *_strncpy(char *dest, char *src, int n)
