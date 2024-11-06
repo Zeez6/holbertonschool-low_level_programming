@@ -5,6 +5,7 @@
  * _strpbrk - function searches string for any set of bytes.
  * @s: pointer.
  * @accept: pointer.
+ * Return: octets.
  */
 
 char *_strpbrk(char *s, char *accept)
