@@ -5,8 +5,6 @@
  * _strstr - function that locates a substring.
  * @needle: substring.
  * @haystack: string.
- * @h: pointer.
- * @n: pointer.
  * Return: NULL.
  */
 
