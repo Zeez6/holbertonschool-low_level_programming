@@ -4,8 +4,6 @@
 /**
  * print_chessboard - function that prints a chessboard
  * @a: representing the chessboard.
- * @i: lines.
- * @j: colums.
  * Return: .
  */
 
