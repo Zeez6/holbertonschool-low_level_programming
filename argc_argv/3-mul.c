@@ -15,7 +15,7 @@ unsigned int num1;
 unsigned int num2;
 unsigned int result;
 {
-	if (argc != 3)
+	if (argc == 3)
 	{
 		printf("error\n");
 	}
