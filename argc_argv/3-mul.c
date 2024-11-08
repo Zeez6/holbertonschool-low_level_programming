@@ -5,15 +5,15 @@
  * main - write program that multiplies two numbers.
  * @argc: number.
  * @argv: array.
- * @num: number of array.
  * Return: 0.
  */
 
 int main(int argc, char *argv[])
+
 {
-int num1;
-int num2;
-int result;
+unsigned int num1;
+unsigned int num2;
+unsigned int result;
 {
 	if (argc != 3)
 	{
